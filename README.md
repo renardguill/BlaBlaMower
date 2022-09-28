@@ -17,7 +17,7 @@ $> pip install blablamower
 
 ### Release
 ```shell
-$> wget https://github.com/renardguill/BlaBlaMower/releases/download/v1.0.0/blablamower-1.0.0-py3-none-any.whl
+$> curl -LO https://github.com/renardguill/BlaBlaMower/releases/download/v1.0.0/blablamower-1.0.0-py3-none-any.whl
 $> pip install blablamower-1.0.0-py3-none-any.whl
 ```
 
