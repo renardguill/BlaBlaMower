@@ -28,10 +28,10 @@ jobs:
         password: "${{ secrets.PYPI_TOKEN }}"
     - name: Create GitHub release
       uses: "marvinpinto/action-automatic-releases@latest"
-        with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          prerelease: false
-          files: |
-            README.md
-            CHANGELOG.md
-            dist/*
+      with:
+        repo_token: "${{ secrets.GITHUB_TOKEN }}"
+        prerelease: false
+        files: |
+          README.md
+          CHANGELOG.md
+          dist/*
