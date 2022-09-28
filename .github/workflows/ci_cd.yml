@@ -32,4 +32,4 @@ jobs:
     - name: Publish Pyhton module on Pypi
       run: |
         export POETRY_PYPI_TOKEN_PYPI=$(echo $PYPI_TOKEN)
-        poetry publish
+        poetry publish -u __token__
