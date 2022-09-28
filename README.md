@@ -1,8 +1,10 @@
 # BlaBlaMower
 
->This project is for respond to the BlaBlaCar technical test that they have asked me to work on. The specifications are in the folder *specs*
+>This project is for respond to the BlaBlaCar technical test that they have asked me to work on. The specifications are on this file [*specs/BlaBlaCar_Technical Test.md*](/specs/BlaBlaCar_Technical%20Test.md)
 
 Program for mowing a rectangular lawn surface with multiple mowers.
+
+[Release Notes](./Release%20notes.md)
 
 ## Installation
 
