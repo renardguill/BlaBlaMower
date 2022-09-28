@@ -7,9 +7,8 @@ on:
     tags:
       - v*.*.*
 
-
 jobs:
-  build:
+  build_publish:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
@@ -22,8 +21,17 @@ jobs:
         python -m pip install poetry --user
         poetry install
     - name: Build Pyhton module
-      run: poetry build -f wheel
+      run: poetry build
     - name: Publish distribution 📦 to PyPI
       uses: pypa/gh-action-pypi-publish@release/v1
       with:
         password: ${{ secrets.PYPI_TOKEN }}
+    - name: Create GitHub release
+      uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          prerelease: false
+          files: |
+            README.MD
+            CHANGELOG.MD
+            dist/*
