@@ -17,8 +17,8 @@ $> pip install blablamower
 
 ### Release
 ```shell
-$> wget https://github.com/renardguill/BlaBlaMower/releases/download/v0.1.0/blablamower-0.1.0-py3-none-any.whl
-$> pip install blablamower-0.1.0-py3-none-any.whl
+$> wget https://github.com/renardguill/BlaBlaMower/releases/download/v1.0.0/blablamower-1.0.0-py3-none-any.whl
+$> pip install blablamower-1.0.0-py3-none-any.whl
 ```
 
 ### Source code
@@ -28,8 +28,16 @@ $> pip install blablamower-0.1.0-py3-none-any.whl
 $> git clone https://github.com/renardguill/BlaBlaMower.git
 $> cd BlaBlaMower
 $> poetry build
-$> pip install dist/blablamower-0.1.0-py3-none-any.whl
+$> pip install dist/blablamower-1.0.0-py3-none-any.whl
 ```
+
+## Update
+
+### pypi
+```shell
+$> pip install blablamower --upgrade
+```
+
 
 ## Usage
 
