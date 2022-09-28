@@ -34,8 +34,12 @@ def start(file_path):
         print(mower)
 
 
-if __name__ == "__main__":
+def main():
     if len(sys.argv) == 1:
         print("You must provide an input file !")
     else:
         start(sys.argv[1])
+
+
+if __name__ == "__main__":
+    main()
