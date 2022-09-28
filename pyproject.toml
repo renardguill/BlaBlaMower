@@ -4,6 +4,9 @@ version = "0.1.0"
 description = ""
 authors = ["Guillaume Renard <renardguillaume@gmail.com>"]
 readme = "README.md"
+homepage = "https://github.com/renardguill/BlaBlaMower"
+repository = "https://github.com/renardguill/BlaBlaMower.git"
+include = ["CHANGELOG.md"]
 
 [tool.poetry.dependencies]
 python = "^3.8"

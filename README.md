@@ -4,7 +4,7 @@
 
 Program for mowing a rectangular lawn surface with multiple mowers.
 
-[Release Notes](./Release%20notes.md)
+[CHANGELOG](./CHANGELOG.md)
 
 ## Installation
 

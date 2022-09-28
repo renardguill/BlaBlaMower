@@ -1,4 +1,4 @@
-# Release Notes
+# CHANGELOG
 
 ## v0.2.0
 * ✨ Add cli command
