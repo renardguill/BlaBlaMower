@@ -1,4 +1,4 @@
-<img src="./resources/mower.png" alt="BlaBlaMower" width="200"/>
+![BlaBlaMower](./resources/mower.png "BlaBlaMower")
 
 # BlaBlaMower
 
