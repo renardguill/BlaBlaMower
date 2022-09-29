@@ -1,3 +1,5 @@
+<img src="./resources/mower.png" alt="BlaBlaMower" width="200"/>
+
 # BlaBlaMower
 
 >This project is for respond to the BlaBlaCar technical test that they have asked me to work on. The specifications are on this file [*specs/BlaBlaCar_Technical Test.md*](/specs/BlaBlaCar_Technical%20Test.md)
@@ -61,6 +63,7 @@ LFLFLFLFF
 FFRFFRFRRF
 ```
 
+**Mowing !!**
 ```shell
 $> blablamower ./inputfile.txt
 ```
